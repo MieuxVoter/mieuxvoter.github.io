@@ -40,54 +40,31 @@
 </style>
 <header>
     <div class="container">
-        <div class="row">
-            <div class="col-sm-3">
-                <!-- show big logo on big devices -->
-                <div class="mieuxvoterlogobig"><br/>
-                    <a href="/"><img src="/img/mieuxvoter.svg" class="img-fluid"></a><br/><br/>
-                    <div class="text-center">
-                        <a href="https://twitter.com/mieux_voter" title="Nous suivre sur twitter" target="_blank"><i class="fab fa-twitter fa-2x" style="color:#2943a0;"></i></a>&nbsp;&nbsp;
-                        <a href="https://github.com/mieuxvoter" title="Notre code" target="_blank"><i class="fab fa-github fa-2x" style="color:#2943a0;"></i></a>&nbsp;&nbsp;
-                        <a href="https://medium.com/mieux-voter" title="Nos actualités" target="_blank"><i class="fab fa-medium fa-2x" style="color:#2943a0;"></i></a>&nbsp;&nbsp;
-                        <a href="mailto:contact@mieuxvoter.fr" title="Nous contacter" target="_blank"><i class="far fa-envelope fa-2x" style="color:#2943a0;"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-9">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <nav class="main_navbararea navbar navbar-expand-md navbar-light">
-                          <a class="navbar-brand logomieuxvoter" href="/"><div class="logo_header">&nbsp;</div></a>
-                          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                          <span class="navbar-toggler-icon"></span>
-                          </button>
-                          <div class="main_collpasarea collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="nav navbar-nav ml-auto">
-                              <li class="nav-item d-sm-none active"><a class="nav-link" href="/">Accueil</a></li>
-                              <li class="nav-item"><a class="nav-link" href="/manifeste/">Manifeste</a></li>
-                              <li class="nav-item"><a class="nav-link" href="/decouvrir/">Découvrir</a></li>
-                              <li class="nav-item"><a class="nav-link" href="/participer/">Participer</a> </li>
-                              <li class="nav-item"><a class="nav-link" href="/apropos/">L'Association</a> </li>
-                              <li class="nav-item getthenewsbutton"><a class="nav-link" href="#" data-toggle="modal" data-target="#NewsletterModal">S'inscrire</a></li>
-                            </ul>
-                          </div>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <nav class="main_navbararea navbar navbar-expand-md navbar-light">
+          <div style="height: 110px;" class="navbar-brand"></div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="main_collpasarea collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav navbar-nav ml-auto">
+              <li class="nav-item d-sm-none active"><a class="nav-link" href="/">Accueil</a></li>
+              <li class="nav-item"><a class="nav-link" href="/manifeste/">Manifeste</a></li>
+              <li class="nav-item"><a class="nav-link" href="/decouvrir/">Découvrir</a></li>
+              <li class="nav-item"><a class="nav-link" href="/participer/">Participer</a> </li>
+              <li class="nav-item"><a class="nav-link" href="/apropos/">L'Association</a> </li>
+              <li class="nav-item getthenewsbutton"><a class="nav-link" href="#" data-toggle="modal" data-target="#NewsletterModal">S'inscrire</a></li>
+            </ul>
+          </div>
+        </nav>        
     </div>
 </header>
+        
+        
 <main class="homesectionarea">
     <div class="container">
-        <div class="row">
-            <div class="col-sm-3">
-                <!-- display small logo on small devices -->
-                <div class="mieuxvoterlogosmall d-block d-sm-none">
-                    <a href="/"><img src="/img/mieuxvoter.svg" class="img-fluid"></a>
-                </div>
-            </div>
-            <div class="col-sm-9">
+        
+            
+    
                 <style>
     .card a:hover:after {
         background: #2943a0;
@@ -112,13 +89,33 @@
     }
 </style>
 
+<!-- display small logo on small devices -->
+<div class="mieuxvoterlogosmall d-block d-sm-none">
+    <a href="/"><img src="/img/mieuxvoter.svg" class="img-fluid"></a>
+</div>
+<div class="mieuxvoterlogobig main"><br/>
+    <a href="/"><img src="/img/mieuxvoter.svg" class="img-fluid"></a><br/><br/>
+</div>                
+
 <div class="mieuxvoterTextarea">
-    <h1 class="text-center">Choisir<br/>&Eacute;lire<br/>D&eacute;cider</h1>
+    <h1 class="text-center d-none d-sm-block">Choisir&nbsp;&middot;&nbsp;&Eacute;lire&nbsp;&middot;&nbsp;D&eacute;cider</h1>
+    <h1 class="text-center d-block d-sm-none">Choisir<br/>&Eacute;lire<br/>D&eacute;cider</h1>
     <h2 class="text-center">Avec le Jugement Majoritaire</h2>
     <br/>
     <div class="row">
-        <div class="col-xs-12 col-md-6 text-center">
-            <h3><b>Notre constat</b></h3>
+        <div class="col-xs-12 col-sm-1 col-md-2 text-center">
+        </div>
+        <div class="col-xs-12 col-sm-5 col-md-4 text-center">
+            <h2><b>Notre constat</b></h2>
+            <div class="text-justify" style="max-width:270px;margin: 0 auto;">
+                Chaque jour, nous prenons
+                des <strong>décisions en commun</strong>.
+                Mais nous ne savons pas
+                si nous utilisons
+                la bonne méthode de vote
+                pour les <strong>meilleurs choix</strong>.
+            </div>
+<!--
             <p class="text-center">
                 Chaque jour, nous prenons<br/>
                 des décisions en commun.<br/>
@@ -127,9 +124,19 @@
                 la bonne méthode de vote<br/>
                 pour les meilleurs choix.<br/>
             </p>
+-->
         </div>
-        <div class="col-xs-12 col-md-6 text-center">
-            <h3><b>Notre action</b></h3>
+        <div class="col-xs-12 col-sm-5 col-md-4 text-center">
+            <h2><b>Notre action</b></h2>
+            <div class="text-justify" style="max-width: 270px;margin:0 auto;">
+                <strong>Agir</strong> pour faire connaître
+                le Jugement Majoritaire et
+                <strong>proposer</strong> des solutions adéquates
+                pour renouveler la façon dont nous
+                <strong>choisissons ensemble</strong>,
+                un élu, un projet, un budget...
+            </div>
+<!--
             <p class="text-center">
                 <strong>Agir</strong> pour faire connaître<br/>
                 le Jugement Majoritaire et<br/>
@@ -138,11 +145,14 @@
                 <strong>choisissons ensemble</strong>,<br/>
                 un élu, un projet, un budget...<br/>
             </p>
+-->
+        </div>
+        <div class="col-xs-12 col-sm-1 col-md-2 text-center">
         </div>
     </div>
     <br/><br/>
     <p class="text-center">
-        <a href="/decouvrir/" class="btn btn-primary bg_mvblue" role="button">Lire la suite</a>
+        <a href="/decouvrir/" class="btn btn-primary bg_mvblue rounded-0" role="button">Découvrir le Jugement Majoritaire</a>
     </p>
     
     
@@ -170,7 +180,7 @@
     </ol>
 -->
 </div>
-<div class="text-center d-block d-sm-none">
+<div class="text-center">
     <br/><br/>
     <a href="https://twitter.com/mieux_voter" target="_blank"><i class="fab fa-twitter fa-2x" style="color:#2943a0;"></i></a>&nbsp;&nbsp;&nbsp;
     <a href="https://github.com/mieuxvoter" target="_blank"><i class="fab fa-github fa-2x" style="color:#2943a0;"></i></a>&nbsp;&nbsp;
@@ -178,8 +188,8 @@
     <a href="mailto:contact@mieuxvoter.fr" title="Nous contacter" alt="Nous contacter" target="_blank"><i class="far fa-envelope fa-2x" style="color:#2943a0;"></i></a>
 </div><br/><br/>
 
-            </div>
-        </div>
+            
+        
     </div>
 </main>
       

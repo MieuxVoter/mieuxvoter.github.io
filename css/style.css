@@ -206,9 +206,12 @@ p{
 	padding: 0px 0px;
     min-height: 500px;
 }
+.mieuxvoterlogobig.main {
+    position:relative;
+}
 .mieuxvoterlogobig{
     position:fixed;
-    width:14%;
+    width:16%;
     margin:0 auto;
     
 }
@@ -414,7 +417,6 @@ ABOUT PAGE CSS STYLING HERE
 .mieuxvoterlogobig{
 	text-align: center;
     display:none;
-
 }	
 .mieuxvoterlogobig img{
 	margin:0px auto;
